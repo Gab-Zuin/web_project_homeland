@@ -1,0 +1,12 @@
+.page {
+  width: 100%;
+}
+
+.header {
+  background-color: #2a2c2f;
+  color: rgb(255, 255, 255);
+}
+
+.header__logo {
+  margin: auto;
+}
