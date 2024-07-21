@@ -90,7 +90,6 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 16px;
-  text-align: justify;
 }
 .header__footer {
   padding-bottom: 24px;
@@ -99,7 +98,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-  text-align: center;
 }
 
 @media screen and (max-width: 950px) {
