@@ -1,0 +1,13 @@
+.header {
+  background-color: #2a2c2f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.header__logo {
+  margin: 0 auto;
+  max-width: 255px;
+  max-height: 69px;
+  display: block;
+  padding-top: 34px;
+}
