@@ -3,13 +3,46 @@
     max-width: 320px;
     margin: 0 auto;
   }
+
+  .intro {
+    padding: 29px;
+  }
+
   .intro__content {
-    padding: 64px 16px;
     max-width: 720px;
   }
   .lead__title {
     max-width: 720px;
     margin: auto;
+  }
+
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
+
+  .intro__pharagraf {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .intro__author {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .intro__pharagraf_small {
+    font-size: 1rem;
+    line-height: 16px;
+  }
+  .header__footer {
+    font-size: 14px;
+    line-height: 26px;
   }
 }
 
@@ -25,7 +58,7 @@
   }
 
   .intro__content {
-    padding: 90px 24px;
+    padding: 0 24px;
     max-width: 720px;
   }
 
@@ -38,6 +71,10 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
+  }
+
+  .intro {
+    padding: 24px;
   }
 
   .intro__title {
@@ -75,8 +112,13 @@
     max-width: 320px;
     margin: 0 auto;
   }
+
+  .intro {
+    padding: 16px;
+  }
+
   .intro__content {
-    padding: 64px 16px;
+    padding: 0 16px;
     max-width: 530px;
   }
 
