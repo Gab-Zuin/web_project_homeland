@@ -1,0 +1,39 @@
+.photo-grid {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
+}
+
+.photo-grid__item {
+  max-width: 284px;
+  margin: 0;
+}
+
+/*
+.bahia {
+}
+
+.costa {
+}
+
+.cupula {
+}
+
+.puente {
+}
+
+.prado {
+}
+
+.jardineras {
+}
+
+.paja {
+}
+
+.lomas {
+}
+*/
