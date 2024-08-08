@@ -6,13 +6,14 @@
 
 .place {
   display: grid;
-  grid-template-rows: ;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(autofill, minmax(288px, 1fr));
   grid-template-areas:
     "titulo creditos"
     "imagen contenido"
     "boton contenido"
     ". contenido";
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .place__title {
@@ -22,6 +23,7 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
+  gap: 18px;
 }
 
 .place__image {
@@ -39,7 +41,6 @@
   line-height: 29.34px;
   max-width: 484px;
   width: 100%;
-  padding: 48px 145px 147px 40px;
 }
 
 .place__frame {
@@ -84,6 +85,5 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  text-align: left;
   margin: 0;
 }
