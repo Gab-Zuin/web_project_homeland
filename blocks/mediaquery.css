@@ -44,6 +44,10 @@
     font-size: 14px;
     line-height: 26px;
   }
+
+  .place__image {
+    max-width: 430px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -99,6 +103,21 @@
   .footer {
     font-size: 14px;
     line-height: 26px;
+  }
+
+  .place {
+    max-width: 720px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .place__image {
+    max-width: 430px;
+  }
+
+  .place__paragraph-container {
+    max-width: 352px;
   }
 }
 
@@ -156,5 +175,9 @@
   .footer {
     font-size: 14px;
     line-height: 16px;
+  }
+
+  .place__image {
+    max-width: 288px;
   }
 }
