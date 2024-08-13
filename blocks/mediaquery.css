@@ -169,7 +169,7 @@
   }
 
   .place {
-    grid-template-columns: auto 300px;
+    display: initial;
     margin: 0 auto;
   }
 
@@ -194,7 +194,6 @@
 
   .place__image {
     max-width: 650px;
-    width: 100%;
   }
 }
 @media all and (max-width: 320px) {
