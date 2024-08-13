@@ -51,6 +51,28 @@
     max-width: 1184px;
     width: 100%;
   }
+
+  .places {
+    max-width: 720px;
+    width: 100%;
+  }
+
+  .place {
+    max-width: 989px;
+    grid-template-columns: 300px auto;
+  }
+
+  .place__website,
+  .place__paragraph-container {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .place__image,
+  .place__title {
+    max-width: 300px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
