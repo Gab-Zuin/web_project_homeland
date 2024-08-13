@@ -1,4 +1,4 @@
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 320px;
     margin: 0 auto;
@@ -44,19 +44,12 @@
     font-size: 14px;
     line-height: 26px;
   }
+}
 
-  .place {
-    margin-bottom: 70px;
-  }
-
-  .place__image {
-    max-width: 450px;
+@media screen and (max-width: 989px) {
+  .photo-grid {
+    max-width: 1184px;
     width: 100%;
-  }
-
-  .place__paragraph-container {
-    font-size: 17px;
-    max-width: 418px;
   }
 }
 
@@ -114,33 +107,31 @@
     font-size: 14px;
     line-height: 26px;
   }
+  .photo-grid {
+    max-width: 720px;
+    width: 100%;
+  }
+  .places {
+    max-width: 720px;
+    width: 100%;
+  }
 
   .place {
     max-width: 720px;
-    margin-bottom: 72px;
+    grid-template-columns: 340px auto;
   }
 
+  .place__website,
+  .place__paragraph-container {
+    max-width: 352px;
+    width: 100%;
+  }
+
+  .place__image,
   .place__title {
     max-width: 340px;
-    padding-left: 10px;
-  }
-
-  .place__image {
-    max-width: 100%;
     width: 100%;
-    padding-left: 10px;
   }
-
-  .place__paragraph-container {
-    max-width: 352;
-    width: 100%;
-    font-size: 16px;
-    margin-left: 28px;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  max-width: 320px;
 }
 
 @media screen and (max-width: 320px) {
@@ -199,36 +190,32 @@
     line-height: 16px;
   }
 
+  .photo-grid {
+    max-width: 288px;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .places {
+    max-width: 320px;
+    width: 100%;
+  }
+
   .place {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 288px);
+    max-width: 320px;
+    display: initial;
   }
 
-  .place__title {
-    grid-column: 1/2;
-  }
-
-  .place__website {
-    grid-column: 1/2;
-    grid-row: 2/3;
+  .place__website,
+  .place__title,
+  .place__paragraph-container,
+  .place__frame {
+    max-width: 288px;
+    width: 100%;
   }
 
   .place__image {
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-
-  .place__paragraph-container {
-    grid-column: 1/2;
-    grid-row: 4/5;
-  }
-
-  .place__frame {
-    grid-column: 1/2;
-    grid-row: 5/6;
+    max-width: 320px;
+    width: 100%;
   }
 }
