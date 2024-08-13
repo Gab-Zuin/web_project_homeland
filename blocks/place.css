@@ -1,10 +1,10 @@
-.places {
+.place {
   max-width: 987px;
   width: 100%;
   margin: 0 auto;
 }
 
-.place {
+.place__content {
   display: grid;
   gap: 40px;
   grid-template-columns: 460px auto;
