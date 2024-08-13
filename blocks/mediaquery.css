@@ -156,7 +156,48 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media all and (max-width: 650px) {
+  .photo-grid {
+    max-width: 640px;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .places {
+    max-width: 650px;
+    width: 100%;
+  }
+
+  .place {
+    grid-template-columns: auto 300px;
+    margin: 0 auto;
+  }
+
+  .place__website {
+    max-width: 640px;
+  }
+  .place__title {
+    font-size: 2rem;
+    max-width: 640px;
+    padding: 0 16px;
+  }
+  .place__frame {
+    max-width: 640px;
+  }
+
+  .place__paragraph-container {
+    max-width: 640px;
+    width: 100%;
+    padding-right: 15px;
+    margin: 0;
+  }
+
+  .place__image {
+    max-width: 650px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 320px) {
   .header__logo {
     max-width: 188px;
     max-height: 52px;
