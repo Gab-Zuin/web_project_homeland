@@ -1,10 +1,10 @@
-.place {
+.places {
   max-width: 987px;
   width: 100%;
   margin: 0 auto;
 }
 
-.place__content {
+.places__content {
   display: grid;
   gap: 40px;
   grid-template-columns: 460px auto;
@@ -16,7 +16,7 @@
     "boton contenido";
 }
 
-.place__title {
+.places__title {
   grid-area: titulo;
   max-width: 455px;
   margin: 0;
@@ -27,7 +27,7 @@
   padding-bottom: 48px;
 }
 
-.place__website {
+.places__website {
   grid-area: creditos;
   grid-column: 2/3;
   grid-row: 1/2;
@@ -39,7 +39,7 @@
   padding-bottom: 48px;
 }
 
-.place__url-heading {
+.places__url-heading {
   color: #aaaaaa;
   text-transform: uppercase;
   font-family: Inter;
@@ -50,7 +50,7 @@
   padding-bottom: 8px;
 }
 
-.place__artist {
+.places__artist {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -58,14 +58,14 @@
   margin: 0;
 }
 
-.place__image {
+.places__image {
   grid-area: imagen;
   width: 100%;
   max-width: 460px;
   object-fit: contain;
 }
 
-.place__paragraph-container {
+.places__paragraph-container {
   grid-area: contenido;
   font-family: Inter;
   font-size: 18px;
@@ -75,7 +75,7 @@
   width: 100%;
 }
 
-.place__frame {
+.places__frame {
   grid-area: boton;
   padding: 13px 20px 13px 20px;
   max-width: 289px;
@@ -91,7 +91,7 @@
   margin-bottom: 80px;
 }
 
-.place__frame:hover {
+.places__frame:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,

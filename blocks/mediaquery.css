@@ -57,19 +57,19 @@
     width: 100%;
   }
 
-  .place {
+  .places__content {
     max-width: 989px;
     grid-template-columns: 300px auto;
   }
 
-  .place__website,
-  .place__paragraph-container {
+  .places__website,
+  .places__paragraph-container {
     max-width: 300px;
     width: 100%;
   }
 
-  .place__image,
-  .place__title {
+  .places__image,
+  .places__title {
     max-width: 300px;
     width: 100%;
   }
@@ -138,19 +138,19 @@
     width: 100%;
   }
 
-  .place {
+  .places__content {
     max-width: 720px;
     grid-template-columns: 340px auto;
   }
 
-  .place__website,
-  .place__paragraph-container {
+  .places__website,
+  .places__paragraph-container {
     max-width: 352px;
     width: 100%;
   }
 
-  .place__image,
-  .place__title {
+  .places__image,
+  .places__title {
     max-width: 340px;
     width: 100%;
   }
@@ -168,31 +168,31 @@
     width: 100%;
   }
 
-  .place {
+  .places__content {
     display: initial;
     margin: 0 auto;
   }
 
-  .place__website {
+  .places__website {
     max-width: 640px;
   }
-  .place__title {
+  .places__title {
     font-size: 2rem;
     max-width: 640px;
     padding: 0 16px;
   }
-  .place__frame {
+  .places__frame {
     max-width: 289px;
   }
 
-  .place__paragraph-container {
+  .places__paragraph-container {
     max-width: 640px;
     width: 100%;
     padding-right: 15px;
     margin: 0;
   }
 
-  .place__image {
+  .places__image {
     max-width: 650px;
   }
 }
@@ -263,32 +263,32 @@
     width: 100%;
   }
 
-  .place {
+  .places__content {
     max-width: 320px;
     display: initial;
     margin: 0 auto;
   }
 
-  .place__website {
+  .places__website {
     max-width: 288px;
   }
-  .place__title {
+  .places__title {
     font-size: 2rem;
     max-width: 288px;
     padding: 0 16px;
   }
-  .place__frame {
+  .places__frame {
     max-width: 288px;
   }
 
-  .place__paragraph-container {
+  .places__paragraph-container {
     max-width: 288px;
     width: 100%;
     padding: 0 16px;
     margin: 0;
   }
 
-  .place__image {
+  .places__image {
     max-width: 320px;
     width: 100%;
   }
