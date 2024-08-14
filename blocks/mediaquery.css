@@ -153,6 +153,7 @@
   .places__title {
     max-width: 340px;
     width: 100%;
+    font-size: 2.6rem;
   }
 }
 
@@ -171,29 +172,46 @@
   .places__content {
     display: initial;
     margin: 0 auto;
+    padding: 0 15px;
   }
 
   .places__website {
     max-width: 640px;
+    padding: 30px 16px;
+  }
+
+  .places__url-heading {
+    margin: 0;
+    padding-bottom: 8px;
   }
   .places__title {
-    font-size: 2rem;
-    max-width: 640px;
+    font-size: 2.1rem;
+    line-height: 1.5;
+    max-width: 650px;
+    box-sizing: border-box;
     padding: 0 16px;
   }
   .places__frame {
-    max-width: 289px;
+    box-sizing: border-box;
+    max-width: 288px;
+    max-height: 48px;
+    padding: 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
   }
 
   .places__paragraph-container {
-    max-width: 640px;
+    max-width: 90%;
     width: 100%;
-    padding-right: 15px;
-    margin: 0;
+    padding: 16px;
   }
 
   .places__image {
     max-width: 650px;
+    object-fit: contain;
   }
 }
 @media all and (max-width: 320px) {
@@ -265,27 +283,45 @@
 
   .places__content {
     max-width: 320px;
+    padding: 0 16px;
     display: initial;
-    margin: 0 auto;
   }
 
   .places__website {
     max-width: 288px;
+    padding: 0 16px;
+    font-size: 1.1rem;
+    padding: 30px 16px;
   }
+
+  .places__url-heading {
+    margin: 0;
+    padding-bottom: 8px;
+  }
+
   .places__title {
     font-size: 2rem;
-    max-width: 288px;
-    padding: 0 16px;
+    max-width: 90%;
+    padding: 50px 16px 0 16px;
+    line-height: 35px;
   }
   .places__frame {
-    max-width: 288px;
+    max-width: 260px;
+    box-sizing: content-box;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: center;
+    padding: 16px;
   }
 
   .places__paragraph-container {
+    box-sizing: border-box;
     max-width: 288px;
-    width: 100%;
-    padding: 0 16px;
-    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: justify;
   }
 
   .places__image {
